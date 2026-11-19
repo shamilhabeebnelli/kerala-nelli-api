@@ -1,7 +1,7 @@
 {
  "name": "keraladaily",
  "base_url": "https://shamilhabeebnelli.github.io/keraladaily/api/v1/",
- "generated_at": "2026-11-20 03:05:14 IST",
+ "generated_at": "2026-11-20 03:30:18 IST",
  "endpoints": {
   "weather/kerala": {
    "url": "https://shamilhabeebnelli.github.io/keraladaily/api/v1/weather/kerala.json",
