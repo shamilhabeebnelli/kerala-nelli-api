@@ -1,7 +1,7 @@
 {
  "endpoint": "weather/kerala",
  "description": "Current weather and 3-day forecast for all 14 Kerala districts",
- "generated_at": "2026-11-20 03:52:10 IST",
+ "generated_at": "2026-11-20 03:54:30 IST",
  "source": "Open-Meteo (open-meteo.com), CC-BY 4.0",
  "count": 14,
  "data": [
