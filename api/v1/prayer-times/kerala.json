@@ -1,0 +1,113 @@
+{
+ "endpoint": "prayer-times/kerala",
+ "description": "Daily prayer times for 8 Kerala towns",
+ "generated_at": "2026-11-20 02:09:55 IST",
+ "source": "Aladhan (aladhan.com), method: Univ. of Islamic Sciences, Karachi",
+ "count": 8,
+ "data": [
+  {
+   "town": "Kozhikode",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:11",
+    "Sunrise": "06:25",
+    "Dhuhr": "12:12",
+    "Asr": "15:32",
+    "Maghrib": "18:00",
+    "Isha": "19:14"
+   }
+  },
+  {
+   "town": "Malappuram",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:10",
+    "Sunrise": "06:23",
+    "Dhuhr": "12:11",
+    "Asr": "15:31",
+    "Maghrib": "17:58",
+    "Isha": "19:12"
+   }
+  },
+  {
+   "town": "Kochi",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:08",
+    "Sunrise": "06:21",
+    "Dhuhr": "12:11",
+    "Asr": "15:31",
+    "Maghrib": "18:00",
+    "Isha": "19:13"
+   }
+  },
+  {
+   "town": "Thiruvananthapuram",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:03",
+    "Sunrise": "06:16",
+    "Dhuhr": "12:08",
+    "Asr": "15:29",
+    "Maghrib": "17:59",
+    "Isha": "19:12"
+   }
+  },
+  {
+   "town": "Thrissur",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:09",
+    "Sunrise": "06:22",
+    "Dhuhr": "12:11",
+    "Asr": "15:31",
+    "Maghrib": "17:59",
+    "Isha": "19:13"
+   }
+  },
+  {
+   "town": "Kannur",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:14",
+    "Sunrise": "06:28",
+    "Dhuhr": "12:14",
+    "Asr": "15:33",
+    "Maghrib": "18:00",
+    "Isha": "19:14"
+   }
+  },
+  {
+   "town": "Palakkad",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:07",
+    "Sunrise": "06:21",
+    "Dhuhr": "12:09",
+    "Asr": "15:29",
+    "Maghrib": "17:57",
+    "Isha": "19:11"
+   }
+  },
+  {
+   "town": "Kollam",
+   "date": "20 Nov 2026",
+   "hijri": "10-06-1448",
+   "timings": {
+    "Fajr": "05:05",
+    "Sunrise": "06:18",
+    "Dhuhr": "12:09",
+    "Asr": "15:30",
+    "Maghrib": "18:00",
+    "Isha": "19:13"
+   }
+  }
+ ]
+}
