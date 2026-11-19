@@ -1,12 +1,12 @@
 {
  "name": "denelli-api",
  "base_url": "https://shamilhabeebnelli.github.io/denelli-api/api/v1/",
- "generated_at": "2026-11-20 02:43:01 IST",
+ "generated_at": "2026-11-20 02:51:23 IST",
  "endpoints": {
   "weather/kerala": {
    "url": "https://shamilhabeebnelli.github.io/denelli-api/api/v1/weather/kerala.json",
    "description": "Current weather and 3-day forecast for all 14 Kerala districts",
-   "status": "stale",
+   "status": "ok",
    "count": 14
   },
   "prayer-times/kerala": {
