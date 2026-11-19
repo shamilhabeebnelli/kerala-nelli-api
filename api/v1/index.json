@@ -1,7 +1,7 @@
 {
  "name": "denelli-api",
  "base_url": "https://shamilhabeebnelli.github.io/denelli-api/api/v1/",
- "generated_at": "2026-11-20 02:09:55 IST",
+ "generated_at": "2026-11-20 02:20:42 IST",
  "endpoints": {
   "weather/kerala": {
    "url": "https://shamilhabeebnelli.github.io/denelli-api/api/v1/weather/kerala.json",
@@ -12,8 +12,8 @@
   "prayer-times/kerala": {
    "url": "https://shamilhabeebnelli.github.io/denelli-api/api/v1/prayer-times/kerala.json",
    "description": "Daily prayer times for 8 Kerala towns",
-   "status": "ok",
-   "count": 8
+   "status": "stale",
+   "count": null
   },
   "currency/inr": {
    "url": "https://shamilhabeebnelli.github.io/denelli-api/api/v1/currency/inr.json",
