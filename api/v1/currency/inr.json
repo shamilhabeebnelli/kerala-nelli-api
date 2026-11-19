@@ -1,7 +1,7 @@
 {
  "endpoint": "currency/inr",
  "description": "Indian Rupee exchange rates for 22 major currencies",
- "generated_at": "2026-11-20 03:54:30 IST",
+ "generated_at": "2026-11-20 03:56:51 IST",
  "source": "open.er-api.com (free tier, daily)",
  "count": 22,
  "data": {
