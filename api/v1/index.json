@@ -1,22 +1,22 @@
 {
- "name": "kerala-nelli-api",
- "base_url": "https://shamilhabeebnelli.github.io/kerala-nelli-api/api/v1/",
- "generated_at": "2026-11-20 03:02:52 IST",
+ "name": "keraladaily",
+ "base_url": "https://shamilhabeebnelli.github.io/keraladaily/api/v1/",
+ "generated_at": "2026-11-20 03:05:14 IST",
  "endpoints": {
   "weather/kerala": {
-   "url": "https://shamilhabeebnelli.github.io/kerala-nelli-api/api/v1/weather/kerala.json",
+   "url": "https://shamilhabeebnelli.github.io/keraladaily/api/v1/weather/kerala.json",
    "description": "Current weather and 3-day forecast for all 14 Kerala districts",
    "status": "ok",
    "count": 14
   },
   "prayer-times/kerala": {
-   "url": "https://shamilhabeebnelli.github.io/kerala-nelli-api/api/v1/prayer-times/kerala.json",
+   "url": "https://shamilhabeebnelli.github.io/keraladaily/api/v1/prayer-times/kerala.json",
    "description": "Daily prayer times for 8 Kerala towns",
-   "status": "stale",
+   "status": "ok",
    "count": 8
   },
   "currency/inr": {
-   "url": "https://shamilhabeebnelli.github.io/kerala-nelli-api/api/v1/currency/inr.json",
+   "url": "https://shamilhabeebnelli.github.io/keraladaily/api/v1/currency/inr.json",
    "description": "Indian Rupee exchange rates for 22 major currencies",
    "status": "ok",
    "count": 22
