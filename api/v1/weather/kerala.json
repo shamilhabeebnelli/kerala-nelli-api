@@ -1,7 +1,7 @@
 {
  "endpoint": "weather/kerala",
  "description": "Current weather and 3-day forecast for all 14 Kerala districts",
- "generated_at": "2026-11-20 02:20:42 IST",
+ "generated_at": "2026-11-20 02:36:45 IST",
  "source": "Open-Meteo (open-meteo.com), CC-BY 4.0",
  "count": 14,
  "data": [
@@ -11,7 +11,7 @@
    "longitude": 76.9366,
    "temperature_c": 25.4,
    "humidity_pct": 84,
-   "wind_kmh": 5.3,
+   "wind_kmh": 5.6,
    "condition": "Overcast",
    "forecast": [
     {
@@ -38,9 +38,9 @@
    "district": "Kollam",
    "latitude": 8.8932,
    "longitude": 76.6141,
-   "temperature_c": 26.5,
-   "humidity_pct": 86,
-   "wind_kmh": 3.5,
+   "temperature_c": 26.4,
+   "humidity_pct": 87,
+   "wind_kmh": 3.3,
    "condition": "Overcast",
    "forecast": [
     {
@@ -67,7 +67,7 @@
    "district": "Pathanamthitta",
    "latitude": 9.2648,
    "longitude": 76.787,
-   "temperature_c": 24.2,
+   "temperature_c": 24.3,
    "humidity_pct": 91,
    "wind_kmh": 6.9,
    "condition": "Overcast",
@@ -96,9 +96,9 @@
    "district": "Alappuzha",
    "latitude": 9.4981,
    "longitude": 76.3388,
-   "temperature_c": 25.5,
+   "temperature_c": 25.4,
    "humidity_pct": 97,
-   "wind_kmh": 5.3,
+   "wind_kmh": 5.4,
    "condition": "Overcast",
    "forecast": [
     {
@@ -125,9 +125,9 @@
    "district": "Kottayam",
    "latitude": 9.5916,
    "longitude": 76.5222,
-   "temperature_c": 25.1,
+   "temperature_c": 25.0,
    "humidity_pct": 92,
-   "wind_kmh": 6.0,
+   "wind_kmh": 6.4,
    "condition": "Overcast",
    "forecast": [
     {
@@ -154,9 +154,9 @@
    "district": "Idukki",
    "latitude": 9.8497,
    "longitude": 76.9683,
-   "temperature_c": 18.9,
+   "temperature_c": 18.7,
    "humidity_pct": 100,
-   "wind_kmh": 5.9,
+   "wind_kmh": 6.1,
    "condition": "Fog",
    "forecast": [
     {
@@ -185,7 +185,7 @@
    "longitude": 76.2673,
    "temperature_c": 26.1,
    "humidity_pct": 95,
-   "wind_kmh": 5.1,
+   "wind_kmh": 5.5,
    "condition": "Overcast",
    "forecast": [
     {
@@ -212,9 +212,9 @@
    "district": "Thrissur",
    "latitude": 10.5276,
    "longitude": 76.2144,
-   "temperature_c": 25.5,
-   "humidity_pct": 82,
-   "wind_kmh": 7.6,
+   "temperature_c": 25.4,
+   "humidity_pct": 83,
+   "wind_kmh": 7.8,
    "condition": "Overcast",
    "forecast": [
     {
@@ -243,7 +243,7 @@
    "longitude": 76.6548,
    "temperature_c": 24.8,
    "humidity_pct": 76,
-   "wind_kmh": 1.8,
+   "wind_kmh": 2.2,
    "condition": "Overcast",
    "forecast": [
     {
@@ -272,7 +272,7 @@
    "longitude": 76.0711,
    "temperature_c": 24.9,
    "humidity_pct": 85,
-   "wind_kmh": 1.3,
+   "wind_kmh": 0.8,
    "condition": "Overcast",
    "forecast": [
     {
@@ -299,9 +299,9 @@
    "district": "Kozhikode",
    "latitude": 11.2588,
    "longitude": 75.7804,
-   "temperature_c": 24.6,
+   "temperature_c": 24.5,
    "humidity_pct": 86,
-   "wind_kmh": 4.2,
+   "wind_kmh": 3.9,
    "condition": "Overcast",
    "forecast": [
     {
@@ -328,8 +328,8 @@
    "district": "Wayanad",
    "latitude": 11.6854,
    "longitude": 76.132,
-   "temperature_c": 18.1,
-   "humidity_pct": 88,
+   "temperature_c": 18.0,
+   "humidity_pct": 89,
    "wind_kmh": 0.5,
    "condition": "Partly cloudy",
    "forecast": [
@@ -357,9 +357,9 @@
    "district": "Kannur",
    "latitude": 11.8745,
    "longitude": 75.3704,
-   "temperature_c": 23.3,
-   "humidity_pct": 78,
-   "wind_kmh": 7.3,
+   "temperature_c": 23.1,
+   "humidity_pct": 79,
+   "wind_kmh": 7.7,
    "condition": "Partly cloudy",
    "forecast": [
     {
@@ -388,7 +388,7 @@
    "longitude": 74.9869,
    "temperature_c": 24.0,
    "humidity_pct": 66,
-   "wind_kmh": 6.9,
+   "wind_kmh": 7.2,
    "condition": "Mainly clear",
    "forecast": [
     {
