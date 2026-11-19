@@ -35,5 +35,4 @@ manifest.
 Sources: Open-Meteo (CC-BY 4.0), Aladhan, open.er-api.com, api.gold-api.com.
 All free, no keys.
 
-Â© 2026 denelli Â· copyright strictly prohibited
- 
+© 2026 denelli · copyright strictly prohibited
