@@ -1,5 +1,7 @@
 # keraladaily
 
+<p><a href="https://keralafortune.denelli.in/"><img src="logo.svg" width="96" alt="keraladaily logo"></a></p>
+
 Free, auto-updating JSON API for Kerala data. No API key, no signup, no cost.
 CORS is open (`Access-Control-Allow-Origin: *`), so it works from any website or app.
 
