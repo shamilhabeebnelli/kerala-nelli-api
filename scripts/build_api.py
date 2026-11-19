@@ -127,6 +127,53 @@ def build_currency():
     }, "open.er-api.com (free tier, daily)"
 
 
+TROY_OZ_G = 31.1034768
+
+
+def build_metals():
+    gold = fetch("https://api.gold-api.com/price/XAU")
+    silver = fetch("https://api.gold-api.com/price/XAG")
+    usdinr = None
+    usdinr_date = None
+    cur_path = os.path.join(ROOT, "currency", "inr.json")
+    try:
+        with open(cur_path, encoding="utf-8") as fh:
+            cur = json.load(fh)
+        usdinr = cur["data"]["rates"]["USD"]["one_unit_in_inr"]
+        usdinr_date = cur["data"].get("source_date")
+    except Exception:
+        cur, _ = build_currency()
+        usdinr = cur["rates"]["USD"]["one_unit_in_inr"]
+        usdinr_date = cur.get("source_date")
+    g24 = gold["price"] / TROY_OZ_G * usdinr
+    sg = silver["price"] / TROY_OZ_G * usdinr
+    return {
+        "unit": "INR",
+        "gold": {
+            "per_gram_24k": round(g24),
+            "per_gram_22k": round(g24 * 22 / 24),
+            "per_gram_18k": round(g24 * 18 / 24),
+            "per_pavan_22k_8g": round(g24 * 22 / 24 * 8),
+        },
+        "silver": {
+            "per_gram": round(sg, 2),
+            "per_kg": round(sg * 1000),
+        },
+        "spot": {
+            "gold_usd_per_oz": gold.get("price"),
+            "gold_source_updated_at": gold.get("updatedAt"),
+            "silver_usd_per_oz": silver.get("price"),
+            "silver_source_updated_at": silver.get("updatedAt"),
+        },
+        "usdinr_used": usdinr,
+        "usdinr_source_date": usdinr_date,
+        "basis": ("Derived from international spot prices converted at the latest "
+                  "INR snapshot. Indicative only, not a live or retail rate: Indian "
+                  "shop rates are higher (premiums, making charges, GST) and vary "
+                  "by shop and city."),
+    }, "api.gold-api.com spot (free, no key) + keraladaily currency/inr snapshot"
+
+
 ENDPOINTS = [
     ("weather/kerala", "weather-kerala", build_weather,
      "Current weather and 3-day forecast for all 14 Kerala districts"),
@@ -134,6 +181,8 @@ ENDPOINTS = [
      "Daily prayer times for 8 Kerala towns"),
     ("currency/inr", "currency-inr", build_currency,
      "Indian Rupee exchange rates for 22 major currencies"),
+    ("metals/india", "metals-india", build_metals,
+     "Indicative gold and silver rates in INR derived from international spot prices, with source timestamps"),
 ]
 
 
@@ -141,7 +190,7 @@ def main():
     os.makedirs(ROOT, exist_ok=True)
     manifest = {
         "name": "keraladaily",
-        "base_url": "https://shamilhabeebnelli.github.io/keraladaily/api/v1/",
+        "base_url": "https://keralafortune.denelli.in/api/v1/",
         "generated_at": NOW,
         "endpoints": {},
     }
@@ -186,3 +235,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
