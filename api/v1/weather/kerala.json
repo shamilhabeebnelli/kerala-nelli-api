@@ -1,7 +1,7 @@
 {
  "endpoint": "weather/kerala",
  "description": "Current weather and 3-day forecast for all 14 Kerala districts",
- "generated_at": "2026-11-20 03:58:33 IST",
+ "generated_at": "2026-11-20 04:13:00 IST",
  "source": "Open-Meteo (open-meteo.com), CC-BY 4.0",
  "count": 14,
  "data": [
@@ -9,9 +9,9 @@
    "district": "Thiruvananthapuram",
    "latitude": 8.5241,
    "longitude": 76.9366,
-   "temperature_c": 25.3,
-   "humidity_pct": 87,
-   "wind_kmh": 5.7,
+   "temperature_c": 25.4,
+   "humidity_pct": 88,
+   "wind_kmh": 6.2,
    "condition": "Overcast",
    "forecast": [
     {
@@ -39,8 +39,8 @@
    "latitude": 8.8932,
    "longitude": 76.6141,
    "temperature_c": 25.7,
-   "humidity_pct": 90,
-   "wind_kmh": 2.4,
+   "humidity_pct": 91,
+   "wind_kmh": 1.9,
    "condition": "Light drizzle",
    "forecast": [
     {
@@ -67,7 +67,7 @@
    "district": "Pathanamthitta",
    "latitude": 9.2648,
    "longitude": 76.787,
-   "temperature_c": 24.3,
+   "temperature_c": 24.2,
    "humidity_pct": 90,
    "wind_kmh": 6.6,
    "condition": "Overcast",
@@ -127,7 +127,7 @@
    "longitude": 76.5222,
    "temperature_c": 24.9,
    "humidity_pct": 91,
-   "wind_kmh": 6.9,
+   "wind_kmh": 7.0,
    "condition": "Overcast",
    "forecast": [
     {
@@ -155,8 +155,8 @@
    "latitude": 9.8497,
    "longitude": 76.9683,
    "temperature_c": 18.5,
-   "humidity_pct": 99,
-   "wind_kmh": 7.4,
+   "humidity_pct": 98,
+   "wind_kmh": 7.6,
    "condition": "Fog",
    "forecast": [
     {
@@ -184,8 +184,8 @@
    "latitude": 9.9312,
    "longitude": 76.2673,
    "temperature_c": 25.9,
-   "humidity_pct": 94,
-   "wind_kmh": 6.7,
+   "humidity_pct": 93,
+   "wind_kmh": 7.1,
    "condition": "Overcast",
    "forecast": [
     {
@@ -212,9 +212,9 @@
    "district": "Thrissur",
    "latitude": 10.5276,
    "longitude": 76.2144,
-   "temperature_c": 25.0,
+   "temperature_c": 24.9,
    "humidity_pct": 84,
-   "wind_kmh": 7.5,
+   "wind_kmh": 7.3,
    "condition": "Overcast",
    "forecast": [
     {
@@ -242,8 +242,8 @@
    "latitude": 10.7867,
    "longitude": 76.6548,
    "temperature_c": 24.6,
-   "humidity_pct": 78,
-   "wind_kmh": 3.7,
+   "humidity_pct": 79,
+   "wind_kmh": 3.6,
    "condition": "Overcast",
    "forecast": [
     {
@@ -271,8 +271,8 @@
    "latitude": 11.051,
    "longitude": 76.0711,
    "temperature_c": 24.5,
-   "humidity_pct": 86,
-   "wind_kmh": 1.9,
+   "humidity_pct": 87,
+   "wind_kmh": 3.1,
    "condition": "Overcast",
    "forecast": [
     {
@@ -299,9 +299,9 @@
    "district": "Kozhikode",
    "latitude": 11.2588,
    "longitude": 75.7804,
-   "temperature_c": 23.5,
-   "humidity_pct": 89,
-   "wind_kmh": 2.2,
+   "temperature_c": 23.3,
+   "humidity_pct": 90,
+   "wind_kmh": 2.3,
    "condition": "Partly cloudy",
    "forecast": [
     {
@@ -386,9 +386,9 @@
    "district": "Kasaragod",
    "latitude": 12.4996,
    "longitude": 74.9869,
-   "temperature_c": 23.5,
+   "temperature_c": 23.4,
    "humidity_pct": 68,
-   "wind_kmh": 6.6,
+   "wind_kmh": 6.4,
    "condition": "Clear sky",
    "forecast": [
     {
