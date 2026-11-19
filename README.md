@@ -1,9 +1,10 @@
-# denelli-api
+# keraladaily
 
 Free, auto-updating JSON API for Kerala data. No API key, no signup, no cost.
 CORS is open (`Access-Control-Allow-Origin: *`), so it works from any website or app.
 
-**Docs + live demo:** https://shamilhabeebnelli.github.io/denelli-api/
+**Docs + live demo:** https://keralafortune.denelli.in/
+Mirror: https://shamilhabeebnelli.github.io/keraladaily/
 
 ## Endpoints
 
@@ -12,12 +13,13 @@ CORS is open (`Access-Control-Allow-Origin: *`), so it works from any website or
 | `GET /api/v1/weather/kerala.json` | Current weather + 3-day forecast, all 14 Kerala districts |
 | `GET /api/v1/prayer-times/kerala.json` | Daily prayer times for 8 Kerala towns |
 | `GET /api/v1/currency/inr.json` | INR exchange rates, 22 major currencies |
+| `GET /api/v1/metals/india.json` | Indicative gold and silver rates in INR, derived from international spot prices with source timestamps |
 | `GET /api/v1/index.json` | Manifest: endpoints, status, last build time |
 
-Base URL: `https://shamilhabeebnelli.github.io/denelli-api`
+Base URL: `https://keralafortune.denelli.in`
 
 ```js
-const res = await fetch('https://shamilhabeebnelli.github.io/denelli-api/api/v1/weather/kerala.json');
+const res = await fetch('https://keralafortune.denelli.in/api/v1/weather/kerala.json');
 const { data } = await res.json();
 ```
 
@@ -29,6 +31,7 @@ It pulls fresh data from free public sources, rewrites the JSON files under
 down, the last good data stays live and the endpoint is marked `stale` in the
 manifest.
 
-Sources: Open-Meteo (CC-BY 4.0), Aladhan, open.er-api.com — all free, no keys.
+Sources: Open-Meteo (CC-BY 4.0), Aladhan, open.er-api.com, api.gold-api.com.
+All free, no keys.
 
-© 2026 denelli · copyright strictly prohibited
+Â© 2026 denelli Â· copyright strictly prohibited
