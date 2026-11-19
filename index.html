@@ -28,8 +28,8 @@
        Call it from any website, app or bot. This is static data on a schedule, not a live query service.</p>
     <div class="dnl-base">
       <span class="dnl-baselbl">Base URL</span>
-      <code id="dnl-baseurl">https://shamilhabeebnelli.github.io/keraladaily</code>
-      <button class="hbn-btn" data-copy="https://shamilhabeebnelli.github.io/keraladaily">copy</button>
+      <code id="dnl-baseurl">https://keralafortune.denelli.in</code>
+      <button class="hbn-btn" data-copy="https://keralafortune.denelli.in">copy</button>
     </div>
   </section>
 
@@ -42,7 +42,7 @@
     <div class="dnl-endpoint">
       <span class="hbn-get">GET</span>
       <code>/api/v1/weather/kerala.json</code>
-      <button class="hbn-btn" data-copy="https://shamilhabeebnelli.github.io/keraladaily/api/v1/weather/kerala.json">copy</button>
+      <button class="hbn-btn" data-copy="https://keralafortune.denelli.in/api/v1/weather/kerala.json">copy</button>
       <a class="hbn-btn hbn-open" href="api/v1/weather/kerala.json" target="_blank" rel="noopener">open</a>
     </div>
     <pre class="dnl-sample" data-sample="weather/kerala">loading&hellip;</pre>
@@ -57,7 +57,7 @@
     <div class="dnl-endpoint">
       <span class="hbn-get">GET</span>
       <code>/api/v1/prayer-times/kerala.json</code>
-      <button class="hbn-btn" data-copy="https://shamilhabeebnelli.github.io/keraladaily/api/v1/prayer-times/kerala.json">copy</button>
+      <button class="hbn-btn" data-copy="https://keralafortune.denelli.in/api/v1/prayer-times/kerala.json">copy</button>
       <a class="hbn-btn hbn-open" href="api/v1/prayer-times/kerala.json" target="_blank" rel="noopener">open</a>
     </div>
     <pre class="dnl-sample" data-sample="prayer-times/kerala">loading&hellip;</pre>
@@ -72,26 +72,42 @@
     <div class="dnl-endpoint">
       <span class="hbn-get">GET</span>
       <code>/api/v1/currency/inr.json</code>
-      <button class="hbn-btn" data-copy="https://shamilhabeebnelli.github.io/keraladaily/api/v1/currency/inr.json">copy</button>
+      <button class="hbn-btn" data-copy="https://keralafortune.denelli.in/api/v1/currency/inr.json">copy</button>
       <a class="hbn-btn hbn-open" href="api/v1/currency/inr.json" target="_blank" rel="noopener">open</a>
     </div>
     <pre class="dnl-sample" data-sample="currency/inr">loading&hellip;</pre>
   </section>
 
+
+  <section class="dnl-card" id="card-metals">
+    <div class="dnl-cardhead">
+      <h2>Gold and silver &mdash; indicative INR rates</h2>
+      <span class="hbn-pill" data-pill="metals/india">&hellip;</span>
+    </div>
+    <p>Gold per gram (24k, 22k, 18k) and per pavan (8g, 22k), silver per gram and per kg. Derived from international spot prices converted at the latest INR snapshot. Indicative only, not a live or retail rate: shop rates add premiums, making charges and GST.</p>
+    <div class="dnl-endpoint">
+      <span class="hbn-get">GET</span>
+      <code>/api/v1/metals/india.json</code>
+      <button class="hbn-btn" data-copy="https://keralafortune.denelli.in/api/v1/metals/india.json">copy</button>
+      <a class="hbn-btn hbn-open" href="api/v1/metals/india.json" target="_blank" rel="noopener">open</a>
+    </div>
+    <pre class="dnl-sample" data-sample="metals/india">loading&hellip;</pre>
+  </section>
+
   <section class="dnl-card" id="card-use">
     <h2>Use it</h2>
     <p>JavaScript</p>
-    <pre class="dnl-sample">const res = await fetch('https://shamilhabeebnelli.github.io/keraladaily/api/v1/weather/kerala.json');
+    <pre class="dnl-sample">const res = await fetch('https://keralafortune.denelli.in/api/v1/weather/kerala.json');
 const { data, generated_at } = await res.json();
 console.log(data[0].district, data[0].temperature_c);</pre>
     <p>Terminal</p>
-    <pre class="dnl-sample">curl https://shamilhabeebnelli.github.io/keraladaily/api/v1/currency/inr.json</pre>
+    <pre class="dnl-sample">curl https://keralafortune.denelli.in/api/v1/currency/inr.json</pre>
   </section>
 
   <section class="dnl-card dnl-src">
     <h2>Sources and updates</h2>
-    <p>Weather: Open-Meteo (CC-BY 4.0) &middot; Prayer times: Aladhan &middot; Currency: open.er-api.com.
-       All free public sources, no keys. A GitHub Actions workflow rebuilds the JSON every 6 hours;
+    <p>Weather: Open-Meteo (CC-BY 4.0) &middot; Prayer times: Aladhan &middot; Currency: open.er-api.com &middot; Metals: api.gold-api.com spot.
+       All free public sources, no keys. Canonical base is keralafortune.denelli.in; the old github.io/keraladaily URLs keep working as a mirror. A GitHub Actions workflow rebuilds the JSON every 6 hours;
        if a source is down, the last good data stays live and is marked <code>stale</code> in
        <a href="api/v1/index.json" target="_blank" rel="noopener">the manifest</a>.</p>
     <p id="dnl-built">build info loading&hellip;</p>
@@ -107,3 +123,4 @@ console.log(data[0].district, data[0].temperature_c);</pre>
 <script src="docs.js"></script>
 </body>
 </html>
+
