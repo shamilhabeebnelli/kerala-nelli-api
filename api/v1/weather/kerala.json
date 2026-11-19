@@ -1,7 +1,7 @@
 {
  "endpoint": "weather/kerala",
  "description": "Current weather and 3-day forecast for all 14 Kerala districts",
- "generated_at": "2026-11-20 03:43:44 IST",
+ "generated_at": "2026-11-20 03:52:10 IST",
  "source": "Open-Meteo (open-meteo.com), CC-BY 4.0",
  "count": 14,
  "data": [
@@ -10,8 +10,8 @@
    "latitude": 8.5241,
    "longitude": 76.9366,
    "temperature_c": 25.3,
-   "humidity_pct": 86,
-   "wind_kmh": 5.4,
+   "humidity_pct": 87,
+   "wind_kmh": 5.7,
    "condition": "Overcast",
    "forecast": [
     {
@@ -38,9 +38,9 @@
    "district": "Kollam",
    "latitude": 8.8932,
    "longitude": 76.6141,
-   "temperature_c": 25.8,
-   "humidity_pct": 89,
-   "wind_kmh": 2.7,
+   "temperature_c": 25.7,
+   "humidity_pct": 90,
+   "wind_kmh": 2.4,
    "condition": "Light drizzle",
    "forecast": [
     {
@@ -67,9 +67,9 @@
    "district": "Pathanamthitta",
    "latitude": 9.2648,
    "longitude": 76.787,
-   "temperature_c": 24.4,
-   "humidity_pct": 89,
-   "wind_kmh": 6.5,
+   "temperature_c": 24.3,
+   "humidity_pct": 90,
+   "wind_kmh": 6.6,
    "condition": "Overcast",
    "forecast": [
     {
@@ -125,7 +125,7 @@
    "district": "Kottayam",
    "latitude": 9.5916,
    "longitude": 76.5222,
-   "temperature_c": 25.0,
+   "temperature_c": 24.9,
    "humidity_pct": 91,
    "wind_kmh": 6.9,
    "condition": "Overcast",
@@ -156,7 +156,7 @@
    "longitude": 76.9683,
    "temperature_c": 18.5,
    "humidity_pct": 99,
-   "wind_kmh": 7.2,
+   "wind_kmh": 7.4,
    "condition": "Fog",
    "forecast": [
     {
@@ -185,7 +185,7 @@
    "longitude": 76.2673,
    "temperature_c": 25.9,
    "humidity_pct": 94,
-   "wind_kmh": 6.4,
+   "wind_kmh": 6.7,
    "condition": "Overcast",
    "forecast": [
     {
@@ -243,7 +243,7 @@
    "longitude": 76.6548,
    "temperature_c": 24.6,
    "humidity_pct": 78,
-   "wind_kmh": 3.5,
+   "wind_kmh": 3.7,
    "condition": "Overcast",
    "forecast": [
     {
@@ -270,9 +270,9 @@
    "district": "Malappuram",
    "latitude": 11.051,
    "longitude": 76.0711,
-   "temperature_c": 24.6,
+   "temperature_c": 24.5,
    "humidity_pct": 86,
-   "wind_kmh": 1.1,
+   "wind_kmh": 1.9,
    "condition": "Overcast",
    "forecast": [
     {
@@ -299,10 +299,10 @@
    "district": "Kozhikode",
    "latitude": 11.2588,
    "longitude": 75.7804,
-   "temperature_c": 23.7,
-   "humidity_pct": 88,
-   "wind_kmh": 2.4,
-   "condition": "Overcast",
+   "temperature_c": 23.5,
+   "humidity_pct": 89,
+   "wind_kmh": 2.2,
+   "condition": "Partly cloudy",
    "forecast": [
     {
      "date": "2026-11-20",
@@ -330,7 +330,7 @@
    "longitude": 76.132,
    "temperature_c": 17.5,
    "humidity_pct": 90,
-   "wind_kmh": 0.2,
+   "wind_kmh": 0.3,
    "condition": "Overcast",
    "forecast": [
     {
@@ -357,7 +357,7 @@
    "district": "Kannur",
    "latitude": 11.8745,
    "longitude": 75.3704,
-   "temperature_c": 22.7,
+   "temperature_c": 22.6,
    "humidity_pct": 81,
    "wind_kmh": 7.8,
    "condition": "Partly cloudy",
@@ -386,9 +386,9 @@
    "district": "Kasaragod",
    "latitude": 12.4996,
    "longitude": 74.9869,
-   "temperature_c": 23.7,
-   "humidity_pct": 67,
-   "wind_kmh": 6.8,
+   "temperature_c": 23.5,
+   "humidity_pct": 68,
+   "wind_kmh": 6.6,
    "condition": "Clear sky",
    "forecast": [
     {
