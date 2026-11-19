@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds the denelli-api static JSON endpoints from free public data sources.
+"""Builds the kerala-nelli-api static JSON endpoints from free public data sources.
 
 No API keys, no paid services. If a source fails, the previous JSON file for
 that endpoint is kept and the endpoint is marked "stale" in the manifest.
@@ -11,7 +11,7 @@ import os
 import urllib.request
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "api", "v1")
-UA = {"User-Agent": "denelli-api builder (github.com/shamilhabeebnelli/denelli-api)"}
+UA = {"User-Agent": "denelli-api builder (github.com/shamilhabeebnelli/kerala-nelli-api)"}
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 NOW = datetime.datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST")
 
@@ -140,8 +140,8 @@ ENDPOINTS = [
 def main():
     os.makedirs(ROOT, exist_ok=True)
     manifest = {
-        "name": "denelli-api",
-        "base_url": "https://shamilhabeebnelli.github.io/denelli-api/api/v1/",
+        "name": "kerala-nelli-api",
+        "base_url": "https://shamilhabeebnelli.github.io/kerala-nelli-api/api/v1/",
         "generated_at": NOW,
         "endpoints": {},
     }
