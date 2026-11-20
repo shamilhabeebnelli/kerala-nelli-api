@@ -108,3 +108,7 @@ code, pre { font-family: "Cascadia Code", "JetBrains Mono", Consolas, monospace;
   .shn-title { font-size: 23px; }
   .hbn-live { margin-left: 0; }
 }
+
+/* header/footer logo image */
+img.shn-logo { background: none; display: block; object-fit: cover; border-radius: 11px; }
+img.shn-logosm { border-radius: 7px; }
