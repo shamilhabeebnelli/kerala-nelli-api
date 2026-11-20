@@ -1,7 +1,7 @@
 {
  "endpoint": "prayer-times/kerala",
  "description": "Daily prayer times for 8 Kerala towns",
- "generated_at": "2026-11-20 03:58:33 IST",
+ "generated_at": "2026-11-20 10:30:40 IST",
  "source": "Aladhan (aladhan.com), method: Univ. of Islamic Sciences, Karachi",
  "count": 8,
  "data": [
@@ -104,7 +104,7 @@
     "Fajr": "05:05",
     "Sunrise": "06:18",
     "Dhuhr": "12:09",
-    "Asr": "15:30",
+    "Asr": "15:31",
     "Maghrib": "18:00",
     "Isha": "19:13"
    }
